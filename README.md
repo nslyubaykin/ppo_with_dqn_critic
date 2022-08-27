@@ -3,7 +3,7 @@ __or Training PPO with DQN as a critic with [ReLAx](https://github.com/nslyubayk
 
 # Overall Idea
 
-PPO needs and estimation of advantages to run the training process. Typically advantages for PPO are estimated with GAE-$\lambda$ algorithm. 
+PPO needs and estimation of advantages to run the training process. Typically advantages for PPO are estimated with GAE-lambda algorithm. 
 
 This notebook explores the possibility of training PPO in pair with DDQN critic.
 
