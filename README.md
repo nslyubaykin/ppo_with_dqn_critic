@@ -1,6 +1,8 @@
 # Two Actors at the Price of One
 __or Training PPO with DQN as a critic with [ReLAx](https://github.com/nslyubaykin/relax)__
 
+This repository contains an [implementation](https://github.com/nslyubaykin/ppo_with_dqn_critic/blob/master/ppo_dqn.ipynb) of PPO+DDQN training loop for discrete control tasks.
+
 # Overall Idea
 
 PPO needs and estimation of advantages to run the training process. Typically advantages for PPO are estimated with GAE-lambda algorithm. 
